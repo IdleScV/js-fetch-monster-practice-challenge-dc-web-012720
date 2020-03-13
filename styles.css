@@ -1,0 +1,75 @@
+h1 {
+	text-align: center;
+	padding-top: 10px;
+}
+.buttons {
+	display: flex;
+	justify-content: center;
+}
+
+button {
+	margin: 20px;
+}
+#monster-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.monster {
+	text-align: center;
+	height: 250px;
+	width: 300px;
+	padding: 4px 4px 4px 4px;
+
+	border-radius: 100px 5px 100px 5px;
+	margin: 10px 10px 10px 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#name {
+	margin: 0;
+	padding-top: 20px;
+}
+
+#age {
+	text-align: center;
+	padding: 0px 0 0 0;
+}
+
+#description {
+	font-size: 15px;
+	padding: 0 0 5px 5px;
+}
+
+body {
+	text-align: center;
+}
+.new-monster {
+	top: 30%;
+	width: 200px;
+	height: 300px;
+	z-index: 300;
+	margin-left: -110px;
+	position: absolute;
+	background-color: white;
+	border-radius: 20px;
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 grey, 0 6px 20px 0 grey;
+	display: none;
+}
+input {
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#fdescription {
+	width: 150px;
+	height: 150px;
+	resize: none;
+	text-align: left;
+}
